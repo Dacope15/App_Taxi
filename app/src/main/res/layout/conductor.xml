@@ -100,18 +100,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="@string/btnBuscar"
+        android:text="@string/btnBuscarCon"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.858"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etDireccionCon" />
 
-    <ListView
-        android:id="@+id/lvListar"
-        android:layout_width="406dp"
-        android:layout_height="142dp"
+    <Button
+        android:id="@+id/btnEliminarConductor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="@string/btnEliminarCon"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnBuscarConductor" />
+        app:layout_constraintTop_toBottomOf="@+id/etDireccionCon" />
+
+    <Button
+        android:id="@+id/btnModificarTaxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="@string/btnModificarCon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDireccionCon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

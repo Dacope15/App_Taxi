@@ -7,7 +7,9 @@
     <string name="etTelefonoCon">Telefono Conductor</string>
     <string name="etDireccionCon">Direccion Conductor</string>
     <string name="btnCrearCon">Crear Conductor</string>
-    <string name="btnBuscar">Buscar Conductor</string>
+    <string name="btnBuscarCon">Buscar Conductor</string>
+    <string name="btnEliminarCon">Eiminar Conductor</string>
+    <string name="btnModificarCon">Modificar Conductor</string>
 
     <string name="tvTituloTaxi">Crear Taxi</string>
     <string name="etplacaTaxi">Placa Taxi</string>
